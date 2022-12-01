@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    
+}
+
+#box {
+
+    background-color: hsl(216, 50%, 16%);
+    margin: 2%;
+    padding: 5%;
+    border-radius: 20px;
+/* ეს კოდი აცენტრებს ვერტიკალურად div-ს */
+
+
+position: absolute;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+   
+    
+}
+
+#nft-img {
+    width: 100%;    
+    border-radius: 25px;
+}
+
+#balance-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    
+}
+
+#eth-balance {    
+    display: flex;    
+    align-items: center; 
+}
+
+#time {
+    display: flex;
+    align-items: center;
+    flex-direction:row;    
+}
+
+.icon {
+    margin-right: 5px;    
+}
+
+
+#creator {
+    display: flex;
+    align-items: center;
+    padding-right: 25%;
+    
+}
+
+#creator img {
+    max-height: 30px;
+    margin-right: 5px;
+    
+}
+
+
+.white-text {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.soft-text {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.sky-text {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    
+}
+
+@media screen and (min-width: 900px){
+    #box {
+        width: 20%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+    
+
