@@ -52,9 +52,7 @@ transform: translateY(-50%);
 
 #creator {
     display: flex;
-    align-items: center;
-    padding-right: 25%;
-    
+    align-items: center;    
 }
 
 #creator img {
