@@ -89,5 +89,54 @@ transform: translateY(-50%);
         transform: translate(-50%, -50%);
     }
 }
-    
 
+
+
+#nft-img {
+    position: relative;
+
+}
+
+#img-box {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    opacity: 0%;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+}
+
+#img-box:hover .overlay{
+    opacity: 50%;
+}
+
+#img-box:hover .view{
+    opacity: 100%;
+}
+
+.white-text:hover {
+    color: hsl(178, 100%, 50%);
+    
+}
+
+.view {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translateY(-50%, -50%);
+    opacity: 0%;
+}
